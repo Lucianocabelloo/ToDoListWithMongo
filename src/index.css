@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: url("./assets/ohqvrP8pMlJD7fX9DK5sI-transformed.jpeg");
+  background-position: center;
+  background-repeat:repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+:root{
+  --toastify-color-info: #9455d3;
+  --toastify-color-warning: #e6124f;
+}
