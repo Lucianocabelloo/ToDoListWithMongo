@@ -8,7 +8,6 @@ const TaskList = ({
   setId,
   setValue,
 }) => {
-  console.log(listaDeTareas);
   return (
     <>
       <div className="flex flex-col gap-5">

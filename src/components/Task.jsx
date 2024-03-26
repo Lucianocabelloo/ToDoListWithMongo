@@ -45,7 +45,7 @@ const Task = ({
       if (result.isConfirmed) {
         setEditar(true);
         setId(tarea._id);
-        setValue("Task", "EDITANDO");
+        setValue("Task", tarea.Task);
       }
     });
   };
